@@ -8,5 +8,9 @@ export const APP_ROUTES: Routes = [
     {
         path: 'operations',
         loadChildren: './module-operations/operations.module#OperationsModule'
+    },
+    {
+        path: 'directives',
+        loadChildren: './module-directives/directives.module#DirectivesModule'
     }
 ];
