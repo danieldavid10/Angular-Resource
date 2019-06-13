@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { JsPdfComponent } from './components/js-pdf/js-pdf.component';
 
 const routes: Routes = [
-  { path: 'js-pdf', component: JsPdfComponent }
+  { path: '', component: JsPdfComponent }
 ];
 
 @NgModule({

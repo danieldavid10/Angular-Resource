@@ -7,16 +7,18 @@ import { AppComponent } from './app.component';
 import { MainContentComponent } from './pages/main-content/main-content.component';
 // Modules
 import { SharedModule } from './shared/shared.module';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainContentComponent,
+    MainContentComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
